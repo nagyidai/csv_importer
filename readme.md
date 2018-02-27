@@ -11,6 +11,12 @@ Docker is required to run this project - https://www.docker.com/get-docker
 
 Download the repository to your local folder.
 
+
+Run Composer (on Windows):
+
+<code>docker run --rm -v ${PWD}:/app composer update</code>
+
+
 To start docker:
 
 <code>docker-compose up</code>
